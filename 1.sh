@@ -20,3 +20,4 @@ for dir in "${directories[@]}"; do
         cd "$dir" || exit
         wget "raw.githubusercontent.com/0xbeethoven/zero/main/$filename"
     fi
+done
